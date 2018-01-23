@@ -2,7 +2,7 @@ Project Title: travel-site
 This is my version of the travel-site example of the Udemy course https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow.
 Initially, the files from https://github.com/LearnWebCode/travel-site-files were cloned as a starting point.
 
-Getting Started
+Getting Started:  
 1) go to directory where remote repo should be copied to
 2) git clone https://github.com/hakunamatatata/travel-site.git
 
