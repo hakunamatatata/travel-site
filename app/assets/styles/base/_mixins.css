@@ -1,17 +1,17 @@
 @define-mixin sm {
-  @media (mid-width: $screen-sm) {
+  @media (min-width: $screen-sm) {
     @mixin-content;
   }
 }
 
 @define-mixin md {
-  @media (mid-width: $screen-md) {
+  @media (min-width: $screen-md) {
     @mixin-content;
   }
 }
 
 @define-mixin lg {
-  @media (mid-width: $screen-lg) {
+  @media (min-width: $screen-lg) {
     @mixin-content;
   }
 }

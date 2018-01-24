@@ -12,6 +12,9 @@ You need an environment with GULP and Node installed. A detailed list of depende
 Installing  
 After installing Node and Gulp, you can simply copy the file package.json to your environment and run npm install, in theory it should install all required packages.  
 
+Run the project using gulp watch  
+The command "gulp watch" will launch index.html (located in the app folder) in our standard browser.  
+
 Test  
 Check console output to confirm no errors occurred after running npm install.  
 
