@@ -7,7 +7,7 @@ Getting Started:
 2) git clone https://github.com/hakunamatatata/travel-site.git  
 
 Prerequisites  
-You need an environment with Node and npm installed. 
+You need an environment with Node, gulp-cli and npm installed. 
 
 Installing  
 After installing Node and npm, you can simply run npm install, and in theory, this should install all required packages in package.json.  
