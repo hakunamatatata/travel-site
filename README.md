@@ -7,10 +7,10 @@ Getting Started:
 2) git clone https://github.com/hakunamatatata/travel-site.git  
 
 Prerequisites  
-You need an environment with GULP and Node installed. A detailed list of dependencies can be found here:   https://github.com/hakunamatatata/travel-site/blob/master/package.json  
+You need an environment with Node and npm installed. 
 
 Installing  
-After installing Node and Gulp, you can simply copy the file package.json to your environment and run npm install, in theory it should install all required packages.  
+After installing Node and npm, you can simply run npm install, and in theory, this should install all required packages in package.json.  
 
 Run the project using gulp watch  
 The command "gulp watch" will launch index.html (located in the app folder) in our standard browser.  
