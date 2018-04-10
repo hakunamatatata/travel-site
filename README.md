@@ -7,14 +7,13 @@ Getting Started:
 2) git clone https://github.com/hakunamatatata/travel-site.git  
 
 Prerequisites  
-You need an environment with Node, gulp-cli and npm installed. 
+You need an environment with Node, gulp-cli and npm installed.
 
 Installing  
-After installing Node and npm, you can simply run npm install, and in theory, this should install all required packages in package.json.  
+After installing all that, you can simply run npm install, and in theory, this should install all required packages in package.json.  
 
-Run the project using gulp watch  
-The command "gulp watch" will launch index.html (located in the app folder) in your standard browser.  
-The gulp task "icons" (running gulp icons) generates one svg file for all icons and a corresponding _sprite.css file
+Run the project using the command "gulp watch". Open the IP and port as instructed in the terminal.
+The gulp task "icons" (running gulp icons) generates one svg file for all icons and a corresponding _sprite.css file. You can run that by typing "gulp icons".
 
 Test  
 Check console output to confirm no errors occurred after running npm install.  
@@ -27,7 +26,7 @@ Authors
 Brad Schiff - created the template for the travel-site and provided the Udemy course  
 Thomas Tanner - following course instructions, slight alterations
 
-License 
+License
 afl-3.0
 
 Acknowledgments  
