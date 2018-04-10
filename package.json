@@ -2,7 +2,7 @@
   "name": "travel-site",
   "version": "1.0.0",
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "^3.3.1",
     "jquery-smooth-scroll": "2.2.0",
     "lazysizes": "4.0.1",
     "normalize.css": "^7.0.0",
@@ -10,7 +10,6 @@
     "waypoints": "4.0.1",
     "webpack": "4.5.0",
     "webpack-cli": "^2.0.14"
-
   },
   "devDependencies": {
     "ajv": "^6.0.0",
