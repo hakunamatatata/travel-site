@@ -47,6 +47,8 @@
 	var $ = __webpack_require__(1);
 	var Person = __webpack_require__(2);
 
+	alert("ABC 321");
+
 	var john = new Person("John Doe", "blue");
 	john.greet();
 
@@ -54,7 +56,6 @@
 	jane.greet();
 
 	$("h1").remove();
-
 
 /***/ }),
 /* 1 */
@@ -9880,7 +9881,6 @@
 /* 2 */
 /***/ (function(module, exports) {
 
-	// constructor function
 	function Person(fullName, favColor) {
 	  this.name = fullName;
 	  this.favoriteColor = favColor;
@@ -9890,7 +9890,6 @@
 	}
 
 	module.exports = Person;
-
 
 /***/ })
 /******/ ]);

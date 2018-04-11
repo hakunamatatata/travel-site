@@ -1,4 +1,3 @@
-// constructor function
 function Person(fullName, favColor) {
   this.name = fullName;
   this.favoriteColor = favColor;
