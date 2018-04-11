@@ -2,7 +2,7 @@
   position: relative;
   padding-bottom: 2.5rem;
 
-  @mixin sm {
+  @mixin atSmall {
     padding-left: 94px;
   }
 
@@ -10,7 +10,7 @@
     display: block;
     margin: 0 auto;
 
-    @mixin sm {
+    @mixin atSmall {
       position: absolute;
       left: 0;
     }
@@ -19,16 +19,14 @@
   &__title {
     font-size: 1.6rem;
     font-weight: 300;
+    margin-top: .7em;
     margin-bottom: .8rem;
-    margin-top: .7rem;
     text-align: center;
 
-    @mixin sm {
-      font-size: 1.875rem;
-      margin-top: 1rem;
+    @mixin atSmall {
       text-align: left;
+      margin-top: 1em;
+      font-size: 1.875rem;
     }
-
   }
-
 }

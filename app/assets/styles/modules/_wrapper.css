@@ -8,14 +8,13 @@
 
   &--medium {
     max-width: 976px;
-    padding: 0;
   }
 
   &--no-padding-until-medium {
     padding-left: 0;
     padding-right: 0;
 
-    @mixin md {
+    @mixin atMedium {
       padding-left: 18px;
       padding-right: 18px;
     }
@@ -25,17 +24,23 @@
     padding-left: 0;
     padding-right: 0;
 
-    @mixin lg {
+    @mixin atLarge {
       padding-left: 18px;
       padding-right: 18px;
     }
   }
 
+  .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   &--b-margin {
     margin-bottom: 1rem;
 
-    @mixin sm {
+    @mixin atSmall {
       margin-bottom: 3.875rem;
     }
   }
+
 }

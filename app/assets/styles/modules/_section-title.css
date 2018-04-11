@@ -2,9 +2,8 @@
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 4.5rem;
 
-  &mixin sm {
+  @mixin atSmall {
     font-size: 3.75rem;
   }
 
@@ -22,15 +21,14 @@
     margin-right: auto;
     margin-bottom: .6rem;
 
-    @mixin sm {
+    @mixin atSmall {
       position: relative;
-      top: 16px;
+      top: 8px;
       margin-right: .5rem;
       margin-left: 0;
-      display: inline-block;
       margin-bottom: 0;
+      display: inline-block;
     }
-
   }
 
 }
