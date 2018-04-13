@@ -2,7 +2,9 @@ var $ = require('jquery');
 import Person from './modules/Person';
 
 class Adult extends Person {
-  console.log(this.name + " now owes $0 in taxes.");
+  payTaxes() {
+    console.log(this.name + " now owes $0 in taxes.");
+  }
 }
 
 alert("ABC 321");
